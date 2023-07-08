@@ -1,0 +1,22 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(94, 172, 161);
+}
+
+.title,h1 {
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    text-decoration: dotted underline;
+    font-weight: 100px;
+    color: rgb(100, 50, 15);
+}
+
+a {
+    text-decoration: none;
+}
+
+.recipeList li {
+    list-style: none ;
+    text-indent: -50px;
+}
