@@ -2,21 +2,45 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(94, 172, 161);
+    color: rgb(74, 11, 1);
+    line-height: 1.5;
+    margin: 5px;
 }
 
-.title,h1 {
+body > div {
+    width: 600px;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+    padding: 18px;
+    outline: dotted 5px;
+    
+}
+
+.title,h1,h2 {
     /* text-transform: uppercase; */
     font-variant: small-caps;
     text-decoration: dotted underline;
-    font-weight: 100px;
-    color: rgb(100, 50, 15);
+    font-weight: 500;
+    margin-top: 25px;
 }
 
 a {
     text-decoration: none;
 }
 
-.recipeList li {
+ul li {
     list-style: none ;
-    text-indent: -50px;
+    text-indent: -40px;
+}
+
+.recipe.photo {
+    width: 540px;
+    height: auto;
+}
+
+ol li {
+    text-align: left;
+    list-style-type: decimal;
+    text-align-last: auto;
 }
