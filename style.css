@@ -22,7 +22,14 @@ body > div {
     font-variant: small-caps;
     text-decoration: dotted underline;
     font-weight: 500;
+}
+h1 {
+    font-weight: 550;
+}
+
+h2 {
     margin-top: 25px;
+    text-decoration: none;
 }
 
 a {
